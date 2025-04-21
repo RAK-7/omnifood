@@ -1,0 +1,630 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+    /* NAVBAR SECTION START */
+.header{
+    background-color: #fdf2e9;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 53px;
+}
+.main-logo{
+    width: 10rem;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;   
+}
+.list a {
+    margin-inline: 20px;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;   
+}
+#tryforfree{
+    background-color: #e67e22;
+    padding: 10px 10px;
+    margin-inline: 20px;
+    border-radius: 10px;
+}
+#tryforfree a {
+    color: white;
+}
+    /* NAVBAR SECTION END */
+
+    /* HERO SECTION START */
+.hero{
+    background-color: #fdf2e9;
+    padding-inline: 213px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 50%;
+    padding: 17px 9px;
+}
+.hero-heading{
+    font-size: 3.35rem;
+    font-weight: 640;
+    color: #333333;
+    line-height: 1.0;
+}
+.hero-paragraph{
+    color: #555555;
+    font-size: 1.29rem;
+    padding-right: 25px;
+    padding-top: 40px;
+    line-height: 1.5;
+}
+.hero-btn{
+    padding-top: 45px; 
+}
+.hero-btn1{
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.hero-btn1:hover{
+    background-color: #d2711d;
+}
+.hero-btn2{
+    margin-left: 15px;
+    background-color: white;
+    color: #333333;
+    padding: 16px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;  
+    
+}
+.down-arrow{
+    color: #333333;
+    height: 23px;
+    
+}
+.hero-btn2:hover{
+    color: #333333;
+    border: 3px solid white;
+    background-color: #fdf2e9;
+}
+.delivered-meals{
+    margin-top: 40px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.profiles{
+    position: relative;
+}
+.profile{
+    position: absolute;
+    width: 45px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.one{
+    right: 100px;
+}
+.two{
+    right: 70px;
+}
+.three{
+    right: 40px;
+}
+.four{
+    right: 10px;
+}
+.five{
+    right: -20px;
+}
+.six{
+    right: -50px;
+} 
+.meals-text{
+    margin-top: 47px;
+    margin-left: 47px;
+}
+.meals-counting{
+    color: #333333;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.mealsnumber{
+    color: #e67e22;
+}
+.hero-img-section{
+    width: 50%;
+}
+.hero-img{
+    width: 100%;
+    padding: 8px 35px; 
+}
+    /* HERO SECTION END */
+
+    /* FEATURED SECTION START  */
+.featured{
+    background-color: rgb(248, 248, 248);
+    padding-inline: 250px;
+}
+.featured-heading{
+    font-weight: 500;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 20px;
+    color: #808080; 
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    color: #808080; 
+}
+.companylogo{
+    height: 33px;
+    filter: brightness(0);
+    opacity: 50%;
+}
+.logo1{
+    width: 220px;
+}
+.logo2{
+    width: 105px;
+}
+.logo3{
+    width: 230px;
+}
+.logo4{
+    width: 130px;
+}
+.logo5{ 
+    width: 155px;
+}
+    /* FEATURED SECTION END  */
+
+    /* HOW IT WORKS SECTION START  */
+
+.how-it-works{
+    background-color: rgb(248, 248, 248);
+
+    padding-inline: 275px;
+    padding-top: 7rem;
+}    
+.how-it-works-heading{
+    font-weight: 480;
+    padding-bottom: 15px;
+    color: #e67e22;
+}
+.how-it-works-text{
+    font-size: 45px;
+    font-weight: 600;
+}
+.steps{
+    margin-top: 5rem;
+}
+.step1{
+    display: flex;
+    gap: 20px;
+}
+
+
+.step-details{
+    width: 50%;
+}
+.step-number{
+    font-size: 85px;
+    color: #dddddd;
+}
+.step-heading{
+    padding-top: 5px;
+    font-size: 29px;
+    line-height: 50px;
+}
+.step-paragraph{
+    padding-top: 40px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #605755;
+}
+.step-image{
+    width: 50%;
+    justify-items: center;
+    align-content: center;
+    position: relative;
+}
+.big-circle{
+    margin-top: 25px;
+    justify-items: center;
+    align-content: center;
+    background-color: #fdf2e9;
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+}
+.small-circle{
+    background-color: #fae5d3;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+.step-images{
+    width: 185px;
+    position: absolute;
+    top: 0px;
+    left: 12rem;
+}
+
+.step2{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.step3{
+    margin-top: 150px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+    /* HOW IT WORKS SECTION END */
+    
+    /* MEALS SECTION START */
+
+.recipes{
+    background-color: rgb(248, 248, 248);
+    padding-top: 150px;
+}
+.meals-heading{
+    text-align: center;
+    color: #e67e22;
+    font-weight: 500;
+    font-size: larger;
+}
+.about-meals{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 43px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.meals{
+    margin-top: 90px;
+    margin-inline: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.meal{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+}
+.meal:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+}
+.meal-image{
+    width: 340px;
+    height: 220px;
+}
+.meal-details{
+    padding: 40px;
+}
+.meal-types{
+    display: flex;
+    gap: 5px;
+}
+.meal-type-vegetatrian{
+    background-color: #51cf66;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.meal-type-vegan{
+    background-color: #94d82d;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.meal-type-paleo{
+    background-color: #ffd43b;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.meal-name{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.meal-extra-info{
+    line-height: 40px;
+    display: flex;
+    color: #555555;
+    align-items: center;
+    gap: 10px;
+}
+.meal-extra-info p{
+    font-size: larger;
+}
+.meal-extra-info b{
+    font-weight: 500;
+}
+.meal-icons{
+    padding-top: 4px;
+    color: #e67e22;
+    height: 30px;
+}
+.meals-working-heading{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.checked-point-icon{
+    color: #e67e22;
+    height: 25px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 45px;
+    font-size: larger;
+    color: #555555;
+}
+.see-all-meals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.more-meals {
+    color: #e67e22;
+    text-decoration: underline;
+    text-decoration-color: #e67e22;
+    font-weight: 500;
+}
+.right-arrow{
+    width: 30px;
+    color: #e67e22;
+}
+.more-meals:hover {
+    text-decoration: none;
+}
+    /* MEALS SECTION END */
+
+    /* TESTINOMIALS SECTION START */
+
+.testinomials-section{
+    background-color: #fdf2e9;
+    display: flex;
+    justify-content: space-between;
+}    
+.testinomial{
+    padding-inline: 93px;
+}
+.testinomial-heading{
+    font-weight: 480;
+    padding-top: 120px;
+    padding-bottom: 15px;
+    color: #e67e22;
+}
+.testinomial-text{
+    font-size: 45px;
+    font-weight: 600;
+}
+.testinomial-grid{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 1rem;
+}
+.person img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+.grid-text{
+    color: #555555;
+    padding-top: 15px;
+    line-height: 35px;
+
+}
+.person-name{
+    color: #706f80;
+    padding-top: 10px;
+    line-height: 40px;
+
+}
+.testinomial-pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.images img{
+    width: 225px;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    cursor: pointer;  
+}
+.images img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.15);
+}
+
+    /* TESTINOMIALS SECTION END */
+
+    /* PRICE SECTION START */
+
+.price{
+    margin-inline: 265px;
+}
+.price-heading{
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 120px;
+    padding-bottom: 15px;
+    color: #e67e22;
+}
+.price-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 120px;
+}
+.pricing-plans{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.plans{
+    width: 400px;
+    padding-block: 50px; 
+}
+.starterplan{
+    border: 2px solid #fdf2e9;
+}
+.plan-name{
+    text-align: center;
+    color: #e67e22;
+    font-size: larger;
+    padding-bottom: 40px;
+}
+.plan-price{
+    color: #333333;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.plan-price span{
+    font-size: 30px;
+}
+.price-text-inner{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#798391;
+}
+.more-details{
+    padding-bottom: 50px;
+}
+.plan-details{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    color: #798391;
+    gap: 15px;
+    line-height: 40px;
+}
+.price-icons{
+    color: #e67e22;
+    height: 25px;
+}
+.link{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.start-eating{
+    font-weight: 600;
+    text-decoration: none;
+    padding: 18px 50px;
+    color: white;
+    background-color: #e67e22;
+    border-radius: 10px;
+}
+.completeplan{
+    background-color: #fdf2e9;
+}
+.for-both-plans{
+    color: #9ea8a7;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+  /* PRICE SECTION END */
+
+  /* BENIFITS SECTION START */
+
+.benifits{
+    display: flex;
+    justify-content: center;
+    /* gap: 100px; */
+}
+.benifit{
+    max-width: 300px;
+    padding-inline: 30px;
+    padding-top: 30px;
+}
+.for-icon{
+    background-color: #fdf2e9;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+}
+.benifit-icon{
+    height: 30px;
+    color: #e67e22;
+}
+.benifit-title{
+    padding-top: 30px;
+}
+.benifit-paragraph{
+    color: #595a59;
+    font-size: 17px;
+    padding-top: 15px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+  /* BENIFITS SECTION END */
+
+  /* FORM SECTION START */
+
+  .forms{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-items: center;
+    
+  }
+  .form{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 60%;
+    background-color: #ea8f3f;
+    display: flex;
+  }
+  .form-details{
+    width: 60%;
+    padding: 50px;
+  }
+  .form-image{
+    width: 40%;
+  }
+  .form-img{
+    width: 100%;
+    opacity: 0.7;
+  }
+
+
+
+  /* FORM SECTION END */
